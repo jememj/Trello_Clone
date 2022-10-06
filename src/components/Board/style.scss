@@ -1,0 +1,15 @@
+.board__container {
+  padding: 20px;
+  overflow-y: auto;
+  display: flex;
+  min-height: calc(100vh - 130px);
+  &::-webkit-scrollbar {
+    height: 10px;
+  }
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+}

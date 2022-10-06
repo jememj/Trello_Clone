@@ -1,0 +1,18 @@
+.create-task {
+  border-radius: 5px;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 15px;
+  &__input {
+    padding: 5px;
+    min-height: 20px;
+    border: none;
+    &:focus {
+      outline: none;
+    }
+  }
+  &__button {
+    padding: 5px;
+    font-size: 18px;
+  }
+}
